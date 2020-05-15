@@ -4,9 +4,9 @@ class Anagram
 
   def initialize(word)
     @word = word
-  end 
+  end
 
   def match(array)
     array.select do |element|
-      @word.split("").sort == 
+      @word.split("").sort ==
 end
